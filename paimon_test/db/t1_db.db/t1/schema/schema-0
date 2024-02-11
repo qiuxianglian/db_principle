@@ -1,0 +1,17 @@
+{
+  "id" : 0,
+  "fields" : [ {
+    "id" : 0,
+    "name" : "f0",
+    "type" : "STRING NOT NULL"
+  }, {
+    "id" : 1,
+    "name" : "f1",
+    "type" : "INT NOT NULL"
+  } ],
+  "highestFieldId" : 1,
+  "partitionKeys" : [ "f1" ],
+  "primaryKeys" : [ "f1","f0" ],
+  "options" : { },
+  "timeMillis" : 1707021586214
+}
